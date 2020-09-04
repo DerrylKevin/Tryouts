@@ -77,6 +77,7 @@ print(List.pop(1))
 ###########################################################
 
 #List Methods
+'''
 Function 	Description
 Append() 	Add an element to the end of the list
 Extend() 	Add all elements of a list to the another list
@@ -89,9 +90,10 @@ Count() 	Returns the count of number of items passed as an argument
 Sort() 	    Sort items in a list in ascending order
 Reverse() 	Reverse the order of items in the list
 copy() 	    Returns a copy of the list
-
+'''
 
 #Built-in functions with List
+'''
 Function 	Description
 reduce() 	apply a particular function passed in its argument to all of the list elements stores the intermediate result and only returns the final summation value
 sum() 	Sums up the numbers in the list
@@ -107,7 +109,7 @@ accumulate() 	apply a particular function passed in its argument to all of the l
 filter() 	tests if each element of a list true or not
 map() 	returns a list of the results after applying the given function to each item of a given iterable
 lambda() 	This function can have any number of arguments but only one expression, which is evaluated and returned.
-
+'''
 ###########################################################
 
 # Tuples can also be created with a single element, but it is a bit tricky. Having one element in the parentheses is not sufficient, there must be a trailing ‘comma’ to make it a tuple.
@@ -127,6 +129,7 @@ Tuple1 = (0, 1, 2, 3, 4)
 del Tuple1 
 
 #Built-In Methods
+'''
 Built-in Function 	Description
 all() 	Returns true if all element are true or if tuple is empty
 any() 	return true if any element of the tuple is true. if tuple is empty, return false
@@ -137,7 +140,7 @@ min() 	return minimum element of given tuple
 sum() 	Sums up the numbers in the tuple
 sorted() 	input elements in the tuple and return a new sorted list
 tuple() 	Convert an iterable to a tuple.
-
+'''
 ###########################################################
 
 # Set is an unordered collection of data type that is iterable, mutable and has no duplicate elements
@@ -180,6 +183,7 @@ Fset1 = frozenset(String)
 
 
 #Set Methods
+'''
 Function 	Description
 add() 	    Adds an element to a set
 remove() 	Removes an element from a set. If the element is not present in the set, raise a KeyError
@@ -198,7 +202,7 @@ issubset() 	Returns True if another set contains this set
 issuperset() 	Returns True if this set contains another set
 symmetric_difference() 	Returns the symmetric difference of two sets as a new set
 symmetric_difference_update() 	Updates a set with the symmetric difference of itself and another
-
+'''
 ###########################################################
 
 # Dictionary
@@ -236,6 +240,7 @@ Dict.clear()        # Deleting entire Dictionary
 
 
 #Dictionary Methods
+'''
 Methods 	Description
 copy() 	They copy() method returns a shallow copy of the dictionary.
 clear() 	The clear() method removes all items from the dictionary.
@@ -252,7 +257,7 @@ has_key() 	Returns true if key in dictionary dict, false otherwise
 fromkeys() 	Create a new dictionary with keys from seq and values set to value.
 type() 	Returns the type of the passed variable.
 cmp() 	Compares elements of both dict.
-
+'''
 ###########################################################
 
 #Array
